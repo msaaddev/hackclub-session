@@ -1,0 +1,27 @@
+{
+	"name": "random-password-gen",
+	"version": "1.0.0",
+	"description": "A CLI that can generate random passwords for you",
+	"main": "index.js",
+	"author": {
+		"name": "Saad Irfan",
+		"email": "me@msaad.dev",
+		"url": "https://github.com/msaaddev"
+	},
+	"files": [
+		"utils/*",
+		"index.js"
+	],
+	"bin": {
+		"gen-pass": "index.js"
+	},
+	"scripts": {
+		"test": "node test.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"cli-table": "^0.3.6",
+		"cli-welcome": "^2.2.2",
+		"clipboardy": "^2.3.0"
+	}
+}
